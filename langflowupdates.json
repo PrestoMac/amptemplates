@@ -1,0 +1,34 @@
+[
+    {
+        "UpdateStageName": "Install PIP",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "StartApplication",
+        "UpdateSourceData": "",
+        "UpdateSourceArgs": "",
+        "UpdateSourceVersion": "",
+        "UpdateSourceTarget": "",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": null,
+        "UpdateSourceConditionSetting": "sudo apt install pip",
+        "UpdateSourceConditionValue": null,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Install langflow",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "StartApplication",
+        "UpdateSourceData": "",
+        "UpdateSourceArgs": "",
+        "UpdateSourceVersion": "",
+        "UpdateSourceTarget": "",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": null,
+        "UpdateSourceConditionSetting": "sudo pip install langflow",
+        "UpdateSourceConditionValue": null,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
